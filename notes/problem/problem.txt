@@ -1,0 +1,3 @@
+cant read messages[current_message].msg and .name
+
+need fixing
