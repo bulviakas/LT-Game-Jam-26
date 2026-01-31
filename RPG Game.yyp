@@ -37,6 +37,8 @@
     {"id":{"name":"obj_button","path":"objects/obj_button/obj_button.yy",},},
     {"id":{"name":"obj_confetti","path":"objects/obj_confetti/obj_confetti.yy",},},
     {"id":{"name":"obj_crowd","path":"objects/obj_crowd/obj_crowd.yy",},},
+    {"id":{"name":"obj_death_manager","path":"objects/obj_death_manager/obj_death_manager.yy",},},
+    {"id":{"name":"obj_display","path":"objects/obj_display/obj_display.yy",},},
     {"id":{"name":"obj_menu_manager","path":"objects/obj_menu_manager/obj_menu_manager.yy",},},
     {"id":{"name":"obj_pause_manager","path":"objects/obj_pause_manager/obj_pause_manager.yy",},},
     {"id":{"name":"obj_tent","path":"objects/obj_tent/obj_tent.yy",},},

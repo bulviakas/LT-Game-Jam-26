@@ -17,4 +17,12 @@ switch (button_id){
 		obj_menu_manager.update_menu();
 	break; //Start
 	
+	case 4: 
+		game_restart()
+	break; //Restart
+	
+	case 5: 
+		room_goto(Menu)
+	break; //Go to menu
+	
 }
