@@ -1,5 +1,3 @@
-if (instance_exists(obj_dialog)) exit;
-
 if (to_right) {
 	x += move_speed;
 

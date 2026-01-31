@@ -1,5 +1,3 @@
-if (instance_exists(obj_dialog)) exit;
-
 var move_x = keyboard_check(ord("D")) - keyboard_check(ord("A"));
 
 var move_y = keyboard_check(ord("S")) - keyboard_check(ord("W"));
@@ -11,7 +9,7 @@ if (move_x != 0 || move_y != 0) {
     move_y /= len;
 }
 
-move_and_collide(move_x * move_speed, move_y * move_speed, tilemap, undefined, undefined, undefined, move_speed, move_speed);
+move_and_collide(move_x * move_speed, move_y * move_speed, objects_to_collide, undefined, undefined, undefined, move_speed, move_speed);
 
 if (move_x != 0 or move_y!=0) {
 	if (move_y>0) sprite_index = spr_player_walk_down;
