@@ -1,6 +1,6 @@
 {
   "$GMSprite":"v2",
-  "%Name":"Tent_red",
+  "%Name":"Tent_blue",
   "bboxMode":2,
   "bbox_bottom":61,
   "bbox_left":5,
@@ -19,10 +19,10 @@
   "height":66,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"a943c4d2-2c8e-435b-a5b2-958c1ce7417b","blendMode":3,"displayName":"Layer 1","isLocked":false,"name":"a943c4d2-2c8e-435b-a5b2-958c1ce7417b","opacity":47.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"7f30a4ba-5058-4e15-b3b2-7060025dbe4d","blendMode":3,"displayName":"Layer 1","isLocked":false,"name":"7f30a4ba-5058-4e15-b3b2-7060025dbe4d","opacity":67.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"38b505f8-4cdf-451d-b28c-77199169a70b","blendMode":0,"displayName":"default","isLocked":false,"name":"38b505f8-4cdf-451d-b28c-77199169a70b","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"Tent_red",
+  "name":"Tent_blue",
   "nineSlice":{
     "$GMNineSliceData":"",
     "bottom":0,
@@ -53,7 +53,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"Tent_red",
+    "%Name":"Tent_blue",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -77,7 +77,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"Tent_red",
+    "name":"Tent_blue",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -89,7 +89,7 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1e083a6b-164b-4b00-a62e-860284be3ead","path":"sprites/Tent_red/Tent_red.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1e083a6b-164b-4b00-a62e-860284be3ead","path":"sprites/Tent_blue/Tent_blue.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"a5cc64da-0d61-4017-a97e-5c8b3901b4e7","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
