@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Tent",
-    "path":"sprites/Tent/Tent.yy",
+    "name":"Tent_purple",
+    "path":"sprites/Tent_purple/Tent_purple.yy",
   },
   "spriteMaskId":null,
   "visible":true,
