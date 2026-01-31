@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite26",
-    "path":"sprites/Sprite26/Sprite26.yy",
+    "name":"devils_crowd",
+    "path":"sprites/devils_crowd/devils_crowd.yy",
   },
   "spriteMaskId":null,
   "visible":true,
