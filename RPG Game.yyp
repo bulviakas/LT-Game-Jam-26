@@ -44,6 +44,7 @@
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"circle_path","path":"paths/circle_path/circle_path.yy",},},
     {"id":{"name":"carnival","path":"rooms/carnival/carnival.yy",},},
+    {"id":{"name":"MaskTest","path":"rooms/MaskTest/MaskTest.yy",},},
     {"id":{"name":"original_Room1","path":"rooms/original_Room1/original_Room1.yy",},},
     {"id":{"name":"original_Room2","path":"rooms/original_Room2/original_Room2.yy",},},
     {"id":{"name":"Dialogue","path":"scripts/Dialogue/Dialogue.yy",},},
@@ -79,6 +80,7 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"MaskTest","path":"rooms/MaskTest/MaskTest.yy",},},
     {"roomId":{"name":"carnival","path":"rooms/carnival/carnival.yy",},},
     {"roomId":{"name":"original_Room2","path":"rooms/original_Room2/original_Room2.yy",},},
     {"roomId":{"name":"original_Room1","path":"rooms/original_Room1/original_Room1.yy",},},
