@@ -1,0 +1,22 @@
+{
+  "$GMPath":"",
+  "%Name":"new_obj_obstacle_path",
+  "closed":false,
+  "kind":1,
+  "name":"new_obj_obstacle_path",
+  "parent":{
+    "name":"Objects",
+    "path":"folders/Objects.yy",
+  },
+  "points":[
+    {"speed":100.0,"x":346.0,"y":-3619.0,},
+    {"speed":100.0,"x":600.0,"y":-3589.0,},
+    {"speed":100.0,"x":630.0,"y":-3341.0,},
+    {"speed":100.0,"x":458.0,"y":-3329.0,},
+    {"speed":100.0,"x":338.0,"y":-3429.0,},
+    {"speed":100.0,"x":710.0,"y":-3489.0,},
+  ],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}
