@@ -25,7 +25,7 @@ else if (sprite_index == spr_player_walk_up) sprite_index = spr_player_idle_up;
 else if (sprite_index == spr_player_walk_down) sprite_index = spr_player_idle_down;
 
 
-if (keyboard_check_pressed(vk_space)) {
+if (keyboard_check_pressed(ord("E"))) {
     var max_index = array_length(acquired_masks) - 1;
 
     selected_mask_index += 1;
