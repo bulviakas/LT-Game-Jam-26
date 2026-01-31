@@ -32,6 +32,7 @@
     {"id":{"name":"dancing_obstacle","path":"objects/dancing_obstacle/dancing_obstacle.yy",},},
     {"id":{"name":"mask_pickup","path":"objects/mask_pickup/mask_pickup.yy",},},
     {"id":{"name":"new_obj_player","path":"objects/new_obj_player/new_obj_player.yy",},},
+    {"id":{"name":"obj_confetti","path":"objects/obj_confetti/obj_confetti.yy",},},
     {"id":{"name":"obj_crowd","path":"objects/obj_crowd/obj_crowd.yy",},},
     {"id":{"name":"obj_tent","path":"objects/obj_tent/obj_tent.yy",},},
     {"id":{"name":"circle_path","path":"paths/circle_path/circle_path.yy",},},
