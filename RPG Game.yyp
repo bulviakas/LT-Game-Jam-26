@@ -33,7 +33,6 @@
     {"id":{"name":"mask_pickup","path":"objects/mask_pickup/mask_pickup.yy",},},
     {"id":{"name":"new_obj_player","path":"objects/new_obj_player/new_obj_player.yy",},},
     {"id":{"name":"obj_crowd","path":"objects/obj_crowd/obj_crowd.yy",},},
-    {"id":{"name":"obj_dialog","path":"objects/obj_dialog/obj_dialog.yy",},},
     {"id":{"name":"obj_enemy_parent","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},},
     {"id":{"name":"obj_enemy1","path":"objects/obj_enemy1/obj_enemy1.yy",},},
     {"id":{"name":"obj_enemy2","path":"objects/obj_enemy2/obj_enemy2.yy",},},
