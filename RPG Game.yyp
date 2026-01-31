@@ -81,8 +81,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"MaskTest","path":"rooms/MaskTest/MaskTest.yy",},},
     {"roomId":{"name":"carnival","path":"rooms/carnival/carnival.yy",},},
+    {"roomId":{"name":"MaskTest","path":"rooms/MaskTest/MaskTest.yy",},},
     {"roomId":{"name":"original_Room2","path":"rooms/original_Room2/original_Room2.yy",},},
     {"roomId":{"name":"original_Room1","path":"rooms/original_Room1/original_Room1.yy",},},
   ],
