@@ -37,7 +37,6 @@
     {"id":{"name":"circle_path","path":"paths/circle_path/circle_path.yy",},},
     {"id":{"name":"carnival","path":"rooms/carnival/carnival.yy",},},
     {"id":{"name":"MaskTest","path":"rooms/MaskTest/MaskTest.yy",},},
-    {"id":{"name":"Dialogue","path":"scripts/Dialogue/Dialogue.yy",},},
     {"id":{"name":"Drawing","path":"scripts/Drawing/Drawing.yy",},},
     {"id":{"name":"festival_music","path":"sounds/festival_music/festival_music.yy",},},
     {"id":{"name":"devils_crowd","path":"sprites/devils_crowd/devils_crowd.yy",},},
