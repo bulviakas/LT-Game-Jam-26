@@ -34,7 +34,6 @@
     {"id":{"name":"new_obj_player","path":"objects/new_obj_player/new_obj_player.yy",},},
     {"id":{"name":"obj_crowd","path":"objects/obj_crowd/obj_crowd.yy",},},
     {"id":{"name":"obj_npc_parent","path":"objects/obj_npc_parent/obj_npc_parent.yy",},},
-    {"id":{"name":"obj_npc1","path":"objects/obj_npc1/obj_npc1.yy",},},
     {"id":{"name":"obj_npc2","path":"objects/obj_npc2/obj_npc2.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_tent","path":"objects/obj_tent/obj_tent.yy",},},
