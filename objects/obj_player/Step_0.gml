@@ -1,27 +1,25 @@
 if (instance_exists(obj_dialog)) exit;
 
-/*if (keyboard_check_pressed(vk_space)){
-	create_dialog([
-	{
-		name: "Testing!",
-		msg: "Hooray it works"
-	}
-	]);
-}*/
+var move_x = keyboard_check(ord("D")) - keyboard_check(ord("A"));
 
-var _hor = keyboard_check(ord("D")) - keyboard_check(ord("A"));
+var move_y = keyboard_check(ord("S")) - keyboard_check(ord("W"));
 
-var _ver = keyboard_check(ord("S")) - keyboard_check(ord("W"));
+// Normalize movement vector, so diagonal movement isn't faster
+if (move_x != 0 || move_y != 0) {
+    var len = sqrt(move_x * move_x + move_y * move_y);
+    move_x /= len;
+    move_y /= len;
+}
 
-move_and_collide(_hor * move_speed, _ver * move_speed, tilemap, undefined, undefined, undefined, move_speed, move_speed);
+move_and_collide(move_x * move_speed, move_y * move_speed, tilemap, undefined, undefined, undefined, move_speed, move_speed);
 
-if (_hor != 0 or _ver!=0){
-	if (_ver>0) 	sprite_index = spr_player_walk_down;
-	else if (_ver<0) 	sprite_index = spr_player_walk_up;
-	else if (_hor>0)	sprite_index = spr_player_walk_right;
-	else if (_hor<0 )	sprite_index = spr_player_walk_left;
+if (move_x != 0 or move_y!=0) {
+	if (move_y>0) 	sprite_index = spr_player_walk_down;
+	else if (move_y<0) 	sprite_index = spr_player_walk_up;
+	else if (move_x>0)	sprite_index = spr_player_walk_right;
+	else if (move_x<0 )	sprite_index = spr_player_walk_left;
 	
-	facing = point_direction(0, 0, _hor, _ver);
+	facing = point_direction(0, 0, move_x, move_y);
 }
 else 
 {
@@ -36,5 +34,4 @@ if (keyboard_check_pressed(vk_space)){
 		var _inst = instance_create_depth(x, y, depth, obj_attack);
 		_inst.image_angle = facing;
 		_inst.damage *= damage; 
-	
 }
