@@ -38,9 +38,9 @@
     {"id":{"name":"obj_npc1","path":"objects/obj_npc1/obj_npc1.yy",},},
     {"id":{"name":"obj_npc2","path":"objects/obj_npc2/obj_npc2.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
-    {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"id":{"name":"carnival","path":"rooms/carnival/carnival.yy",},},
+    {"id":{"name":"original_Room1","path":"rooms/original_Room1/original_Room1.yy",},},
+    {"id":{"name":"original_Room2","path":"rooms/original_Room2/original_Room2.yy",},},
     {"id":{"name":"Dialogue","path":"scripts/Dialogue/Dialogue.yy",},},
     {"id":{"name":"Drawing","path":"scripts/Drawing/Drawing.yy",},},
     {"id":{"name":"image_1__2_","path":"sprites/image_1__2_/image_1__2_.yy",},},
@@ -74,9 +74,9 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
-    {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"roomId":{"name":"carnival","path":"rooms/carnival/carnival.yy",},},
+    {"roomId":{"name":"original_Room2","path":"rooms/original_Room2/original_Room2.yy",},},
+    {"roomId":{"name":"original_Room1","path":"rooms/original_Room1/original_Room1.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
