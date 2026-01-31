@@ -32,7 +32,6 @@
     {"id":{"name":"dancing_obstacle","path":"objects/dancing_obstacle/dancing_obstacle.yy",},},
     {"id":{"name":"mask_pickup","path":"objects/mask_pickup/mask_pickup.yy",},},
     {"id":{"name":"new_obj_player","path":"objects/new_obj_player/new_obj_player.yy",},},
-    {"id":{"name":"obj_attack","path":"objects/obj_attack/obj_attack.yy",},},
     {"id":{"name":"obj_carry_data","path":"objects/obj_carry_data/obj_carry_data.yy",},},
     {"id":{"name":"obj_crowd","path":"objects/obj_crowd/obj_crowd.yy",},},
     {"id":{"name":"obj_dialog","path":"objects/obj_dialog/obj_dialog.yy",},},
