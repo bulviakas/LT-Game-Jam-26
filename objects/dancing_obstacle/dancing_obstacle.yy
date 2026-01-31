@@ -1,13 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"new_obj_player",
+  "%Name":"dancing_obstacle",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"dancing_obstacle","path":"objects/dancing_obstacle/dancing_obstacle.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"new_obj_player",
+  "name":"dancing_obstacle",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -27,13 +26,15 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v2","%Name":"path_to_follow","filters":[],"listItems":[],"multiselect":false,"name":"path_to_follow","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"circle_path","path":"paths/circle_path/circle_path.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"circle_path","varType":5,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_player_idle_down",
-    "path":"sprites/spr_player_idle_down/spr_player_idle_down.yy",
+    "name":"spr_npc1",
+    "path":"sprites/spr_npc1/spr_npc1.yy",
   },
   "spriteMaskId":null,
   "visible":true,
