@@ -25,3 +25,14 @@ else if (sprite_index == spr_player_walk_right) sprite_index = spr_player_idle_r
 else if (sprite_index == spr_player_walk_left) sprite_index = spr_player_idle_left;
 else if (sprite_index == spr_player_walk_up) sprite_index = spr_player_idle_up;
 else if (sprite_index == spr_player_walk_down) sprite_index = spr_player_idle_down;
+
+
+if (keyboard_check_pressed(vk_space)) {
+    var max_index = array_length(acquired_masks) - 1;
+
+    selected_mask_index += 1;
+
+    if (selected_mask_index > max_index) {
+        selected_mask_index = -1;
+    }
+}
