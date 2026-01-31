@@ -57,6 +57,7 @@
     {"id":{"name":"spr_player_walk_up","path":"sprites/spr_player_walk_up/spr_player_walk_up.yy",},},
     {"id":{"name":"spr_shadow","path":"sprites/spr_shadow/spr_shadow.yy",},},
     {"id":{"name":"spr_tileset","path":"sprites/spr_tileset/spr_tileset.yy",},},
+    {"id":{"name":"spt_confetti","path":"sprites/spt_confetti/spt_confetti.yy",},},
     {"id":{"name":"Tent_blue","path":"sprites/Tent_blue/Tent_blue.yy",},},
     {"id":{"name":"Tent_green","path":"sprites/Tent_green/Tent_green.yy",},},
     {"id":{"name":"Tent_purple","path":"sprites/Tent_purple/Tent_purple.yy",},},
