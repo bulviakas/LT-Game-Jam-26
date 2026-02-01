@@ -60,6 +60,7 @@
     {"id":{"name":"spr_clown_mask_pickup","path":"sprites/spr_clown_mask_pickup/spr_clown_mask_pickup.yy",},},
     {"id":{"name":"spr_clown_mask_up","path":"sprites/spr_clown_mask_up/spr_clown_mask_up.yy",},},
     {"id":{"name":"spr_clown","path":"sprites/spr_clown/spr_clown.yy",},},
+    {"id":{"name":"spr_corner_tileset","path":"sprites/spr_corner_tileset/spr_corner_tileset.yy",},},
     {"id":{"name":"spr_dancer","path":"sprites/spr_dancer/spr_dancer.yy",},},
     {"id":{"name":"spr_devil_mask_down","path":"sprites/spr_devil_mask_down/spr_devil_mask_down.yy",},},
     {"id":{"name":"spr_devil_mask_pickup","path":"sprites/spr_devil_mask_pickup/spr_devil_mask_pickup.yy",},},
