@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_enemy1",
-    "path":"sprites/spr_enemy1/spr_enemy1.yy",
+    "name":"spr_clown_mask_pickup",
+    "path":"sprites/spr_clown_mask_pickup/spr_clown_mask_pickup.yy",
   },
   "spriteMaskId":null,
   "visible":true,
