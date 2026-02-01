@@ -8,6 +8,7 @@ switch (button_id){
 	case 1: break; //Settings
 	
 	case 2: 
+
 		game_end();
 	break; //Quit
 	
@@ -26,3 +27,6 @@ switch (button_id){
 	break; //Go to menu
 	
 }
+
+audio_play_sound(button_click_sound, 0 ,false);
+
