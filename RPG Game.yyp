@@ -90,6 +90,7 @@
     {"id":{"name":"Tent_purple","path":"sprites/Tent_purple/Tent_purple.yy",},},
     {"id":{"name":"Tent_red","path":"sprites/Tent_red/Tent_red.yy",},},
     {"id":{"name":"Tent_yellow","path":"sprites/Tent_yellow/Tent_yellow.yy",},},
+    {"id":{"name":"corner_tileset","path":"tilesets/corner_tileset/corner_tileset.yy",},},
     {"id":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},},
   ],
   "resourceType":"GMProject",
