@@ -93,6 +93,7 @@
     {"id":{"name":"corner_tileset","path":"tilesets/corner_tileset/corner_tileset.yy",},},
     {"id":{"name":"horizontal_wall_tileset","path":"tilesets/horizontal_wall_tileset/horizontal_wall_tileset.yy",},},
     {"id":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},},
+    {"id":{"name":"vertical_wall_tileset","path":"tilesets/vertical_wall_tileset/vertical_wall_tileset.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
