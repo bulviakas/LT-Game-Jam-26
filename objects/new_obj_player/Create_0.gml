@@ -4,3 +4,4 @@ objects_to_collide = [tilemap, obj_tent];
 
 acquired_masks = [];
 selected_mask_index = -1;
+selected_mask_sprite = noone;
