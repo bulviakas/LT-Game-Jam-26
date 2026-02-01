@@ -157,6 +157,7 @@
     {"name":"inst_7BAF9361","path":"rooms/carnival/carnival.yy",},
     {"name":"inst_263DFD97","path":"rooms/carnival/carnival.yy",},
     {"name":"inst_6A601A37","path":"rooms/carnival/carnival.yy",},
+    {"name":"inst_7B0F0E8D","path":"rooms/carnival/carnival.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -351,6 +352,7 @@
       ],"layers":[],"name":"Dancers","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v4","%Name":"inst_3B3F099C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3B3F099C","objectId":{"name":"new_obj_player","path":"objects/new_obj_player/new_obj_player.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":256.0,"y":960.0,},
+        {"$GMRInstance":"v4","%Name":"inst_7B0F0E8D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7B0F0E8D","objectId":{"name":"obj_pause_manager","path":"objects/obj_pause_manager/obj_pause_manager.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":192.0,"y":960.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"ground","depth":600,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"ground","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":64,"SerialiseWidth":28,"TileCompressedData":[
           1,0,-27,-2147483648,1735,0,49,50,49,50,51,52,53,54,49,50,51,52,53,54,49,50,51,52,53,54,49,50,51,52,53,
