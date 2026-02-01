@@ -83,6 +83,7 @@
     {"id":{"name":"spr_ui_box","path":"sprites/spr_ui_box/spr_ui_box.yy",},},
     {"id":{"name":"spr_ui_button","path":"sprites/spr_ui_button/spr_ui_button.yy",},},
     {"id":{"name":"spr_ui_check","path":"sprites/spr_ui_check/spr_ui_check.yy",},},
+    {"id":{"name":"spr_vertical_wall","path":"sprites/spr_vertical_wall/spr_vertical_wall.yy",},},
     {"id":{"name":"spt_confetti","path":"sprites/spt_confetti/spt_confetti.yy",},},
     {"id":{"name":"Tent_blue","path":"sprites/Tent_blue/Tent_blue.yy",},},
     {"id":{"name":"Tent_green","path":"sprites/Tent_green/Tent_green.yy",},},
