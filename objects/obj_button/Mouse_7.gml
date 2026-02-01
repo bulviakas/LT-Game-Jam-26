@@ -22,8 +22,7 @@ switch (button_id){
 	
 	case 4: 
 		room_restart()
-		layer_set_visible("DeathLayer", false);
-		
+		layer_set_visible("DeathLayer", false);	
 	break; //Restart
 	
 	case 5: 
