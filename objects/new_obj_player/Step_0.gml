@@ -1,5 +1,6 @@
 depth = -bbox_bottom;
 
+
 var move_x = keyboard_check(ord("D")) - keyboard_check(ord("A"));
 
 var move_y = keyboard_check(ord("S")) - keyboard_check(ord("W"));
@@ -81,3 +82,7 @@ function select_up_mask() {
       break;
   }
 }
+if (!place_meeting(x, y, obj_confetti)){
+	move_speed = 2;
+}
+else move_speed = 1;

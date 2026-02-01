@@ -7,8 +7,6 @@
   "inheritLayers":false,
   "instanceCreationOrder":[
     {"name":"inst_3B3F099C1","path":"rooms/MaskTest/MaskTest.yy",},
-    {"name":"inst_7967E87F","path":"rooms/MaskTest/MaskTest.yy",},
-    {"name":"inst_FF4B7D","path":"rooms/MaskTest/MaskTest.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -20,12 +18,6 @@
         ],"TileDataFormat":1,},"tilesetId":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v4","%Name":"inst_3B3F099C1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3B3F099C1","objectId":{"name":"new_obj_player","path":"objects/new_obj_player/new_obj_player.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":224.0,"y":224.0,},
-        {"$GMRInstance":"v4","%Name":"inst_7967E87F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7967E87F","objectId":{"name":"mask_pickup","path":"objects/mask_pickup/mask_pickup.yy",},"properties":[
-            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"mask_pickup","path":"objects/mask_pickup/mask_pickup.yy",},"propertyId":{"name":"mask_type","path":"objects/mask_pickup/mask_pickup.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"purple",},
-          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":288.0,"y":192.0,},
-        {"$GMRInstance":"v4","%Name":"inst_FF4B7D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_FF4B7D","objectId":{"name":"mask_pickup","path":"objects/mask_pickup/mask_pickup.yy",},"previewSprite":{"name":"spr_enemy2","path":"sprites/spr_enemy2/spr_enemy2.yy",},"properties":[
-            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"mask_pickup","path":"objects/mask_pickup/mask_pickup.yy",},"propertyId":{"name":"mask_type","path":"objects/mask_pickup/mask_pickup.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"green",},
-          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":288.0,"y":224.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"ground","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"ground","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":28,"SerialiseWidth":28,"TileCompressedData":[
           1,0,-27,-2147483648,756,0,49,50,49,50,51,52,53,54,49,50,51,52,53,54,49,50,51,52,53,54,49,50,51,52,53,
