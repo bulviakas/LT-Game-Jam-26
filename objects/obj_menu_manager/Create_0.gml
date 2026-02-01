@@ -14,3 +14,4 @@ update_menu();
 
 layer_set_visible("CreditsLayer", false);
 layer_set_visible("SettingsLayer", false);
+layer_set_visible("DeathLayer", false);

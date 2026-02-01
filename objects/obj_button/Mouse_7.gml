@@ -21,7 +21,9 @@ switch (button_id){
 	break; //Start
 	
 	case 4: 
-		game_restart()
+		room_restart()
+		layer_set_visible("DeathLayer", false);
+		
 	break; //Restart
 	
 	case 5: 
