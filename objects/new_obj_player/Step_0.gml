@@ -1,3 +1,5 @@
+depth = -bbox_bottom;
+
 var move_x = keyboard_check(ord("D")) - keyboard_check(ord("A"));
 
 var move_y = keyboard_check(ord("S")) - keyboard_check(ord("W"));

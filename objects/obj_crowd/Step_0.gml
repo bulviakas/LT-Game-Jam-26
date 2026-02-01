@@ -1,3 +1,5 @@
+depth = -bbox_bottom;
+
 if (to_right) {
 	x += move_speed;
 
