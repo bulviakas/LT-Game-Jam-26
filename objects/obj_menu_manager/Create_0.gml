@@ -11,3 +11,6 @@ update_menu = function(){
 }
 
 update_menu();
+
+layer_set_visible("CreditsLayer", false);
+layer_set_visible("SettingsLayer", false);
