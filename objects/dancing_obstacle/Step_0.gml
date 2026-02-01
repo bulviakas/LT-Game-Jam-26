@@ -1,3 +1,5 @@
+depth = -bbox_bottom;
+
 path_pos += random_range(0.001, 0.003);
 
 var previous_x = x;
