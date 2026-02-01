@@ -1,3 +1,5 @@
+depth = -bbox_bottom;
+
 var move_x = keyboard_check(ord("D")) - keyboard_check(ord("A"));
 
 var move_y = keyboard_check(ord("S")) - keyboard_check(ord("W"));
@@ -32,5 +34,50 @@ if (keyboard_check_pressed(ord("E"))) {
 
     if (selected_mask_index > max_index) {
         selected_mask_index = -1;
+        selected_mask_sprite = noone;
     }
+}
+
+select_mask(move_x, move_y);
+
+function select_mask(move_x, move_y) {
+  if (selected_mask_index == -1) return;
+
+  if (move_x != 0 or move_y!=0) {
+	if (move_y>0) select_down_mask()
+	else if (move_y<0) select_up_mask()
+	else if (move_x>0) select_down_mask()
+	else if (move_x<0) select_down_mask()
+  }
+  else if (sprite_index == spr_player_walk_right) select_down_mask()
+  else if (sprite_index == spr_player_walk_left) select_down_mask()
+  else if (sprite_index == spr_player_walk_up) select_up_mask()
+  else if (sprite_index == spr_player_walk_down) select_down_mask()
+}
+
+
+function select_down_mask() {
+  var selected_mask = acquired_masks[selected_mask_index];
+
+  switch (selected_mask) {
+    case "clown":
+      selected_mask_sprite = spr_clown_mask_down
+      break;
+    case "devil":
+      selected_mask_sprite = spr_devil_mask_down
+      break;
+  }
+}
+
+function select_up_mask() {
+  var selected_mask = acquired_masks[selected_mask_index];
+
+  switch (selected_mask) {
+    case "clown":
+      selected_mask_sprite = spr_clown_mask_up
+      break;
+    case "devil":
+      selected_mask_sprite = spr_devil_mask_up
+      break;
+  }
 }
