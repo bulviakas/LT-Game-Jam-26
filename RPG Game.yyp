@@ -67,6 +67,7 @@
     {"id":{"name":"spr_devil_mask_up","path":"sprites/spr_devil_mask_up/spr_devil_mask_up.yy",},},
     {"id":{"name":"spr_enemy1","path":"sprites/spr_enemy1/spr_enemy1.yy",},},
     {"id":{"name":"spr_enemy2","path":"sprites/spr_enemy2/spr_enemy2.yy",},},
+    {"id":{"name":"spr_horizontal_wall_tileset","path":"sprites/spr_horizontal_wall_tileset/spr_horizontal_wall_tileset.yy",},},
     {"id":{"name":"spr_lil_crowd","path":"sprites/spr_lil_crowd/spr_lil_crowd.yy",},},
     {"id":{"name":"spr_menu","path":"sprites/spr_menu/spr_menu.yy",},},
     {"id":{"name":"spr_player_idle_down","path":"sprites/spr_player_idle_down/spr_player_idle_down.yy",},},
