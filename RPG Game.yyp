@@ -58,6 +58,7 @@
     {"id":{"name":"spr_clown_mask_pickup","path":"sprites/spr_clown_mask_pickup/spr_clown_mask_pickup.yy",},},
     {"id":{"name":"spr_clown","path":"sprites/spr_clown/spr_clown.yy",},},
     {"id":{"name":"spr_dancer","path":"sprites/spr_dancer/spr_dancer.yy",},},
+    {"id":{"name":"spr_devil_mask_pickup","path":"sprites/spr_devil_mask_pickup/spr_devil_mask_pickup.yy",},},
     {"id":{"name":"spr_enemy1","path":"sprites/spr_enemy1/spr_enemy1.yy",},},
     {"id":{"name":"spr_enemy2","path":"sprites/spr_enemy2/spr_enemy2.yy",},},
     {"id":{"name":"spr_lil_crowd","path":"sprites/spr_lil_crowd/spr_lil_crowd.yy",},},
