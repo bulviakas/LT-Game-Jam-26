@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"obj_confetti",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"new_obj_player","path":"objects/new_obj_player/new_obj_player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_confetti",
   "overriddenProperties":[],
