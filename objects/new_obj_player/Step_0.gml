@@ -12,7 +12,16 @@ if (move_x != 0 || move_y != 0) {
     move_y /= len;
 }
 
-move_and_collide(move_x * move_speed, move_y * move_speed, objects_to_collide, undefined, undefined, undefined, move_speed, move_speed);
+//move_and_collide(move_x * move_speed, move_y * move_speed, tilemap, undefined, undefined, undefined, move_speed, move_speed);
+//move_and_collide(move_x * move_speed, move_y * move_speed, obj_tent, undefined, undefined, undefined, move_speed, move_speed);
+
+if (!place_meeting(x + move_x * move_speed, y, [tilemap, obj_tent])){
+	x+= move_x * move_speed;	
+}
+if (!place_meeting(x, y + move_y * move_speed, [tilemap, obj_tent])){
+	y+= move_y * move_speed;	
+}
+
 
 if (move_x != 0 or move_y!=0) {
 	if (move_y>0) sprite_index = spr_player_walk_down;
@@ -82,7 +91,9 @@ function select_up_mask() {
       break;
   }
 }
+
 if (!place_meeting(x, y, obj_confetti)){
 	move_speed = 2;
 }
 else move_speed = 1;
+

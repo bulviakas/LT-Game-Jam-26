@@ -8,8 +8,8 @@
   "name":"obj_menu_manager",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"RPG Game",
+    "path":"RPG Game.yyp",
   },
   "parentObjectId":null,
   "persistent":false,

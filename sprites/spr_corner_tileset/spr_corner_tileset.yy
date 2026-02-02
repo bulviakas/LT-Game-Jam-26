@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"RPG Game",
-    "path":"RPG Game.yyp",
+    "name":"tilesets",
+    "path":"folders/Sprites/tilesets.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

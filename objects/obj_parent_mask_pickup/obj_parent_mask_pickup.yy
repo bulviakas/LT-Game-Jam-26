@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"mask_pickup",
+  "%Name":"obj_parent_mask_pickup",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"new_obj_player","path":"objects/new_obj_player/new_obj_player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"mask_pickup",
+  "name":"obj_parent_mask_pickup",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -32,10 +32,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_clown_mask_pickup",
-    "path":"sprites/spr_clown_mask_pickup/spr_clown_mask_pickup.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
