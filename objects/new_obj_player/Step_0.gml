@@ -97,3 +97,6 @@ if (!place_meeting(x, y, obj_confetti)){
 }
 else move_speed = 1;
 
+if (ability_to_shoot && keyboard_check_pressed(vk_space)){
+	instance_create_layer(x, y, "Instances", obj_shoot_ball);
+}
