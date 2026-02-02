@@ -100,3 +100,8 @@ else move_speed = 1;
 if (ability_to_shoot && keyboard_check_pressed(vk_space)){
 	instance_create_layer(x, y, "Instances", obj_shoot_ball);
 }
+
+if (hp<=0) {
+	layer_set_visible("DeathLayer", true);
+	instance_deactivate_all(true);
+}
