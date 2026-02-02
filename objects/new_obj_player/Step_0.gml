@@ -53,16 +53,16 @@ select_mask(move_x, move_y);
 function select_mask(move_x, move_y) {
   if (selected_mask_index == -1) return;
 
-  if (move_x != 0 or move_y!=0) {
-	if (move_y>0) select_down_mask()
-	else if (move_y<0) select_up_mask()
-	else if (move_x>0) select_down_mask()
-	else if (move_x<0) select_down_mask()
-  }
-  else if (sprite_index == spr_player_walk_right) select_down_mask()
-  else if (sprite_index == spr_player_walk_left) select_down_mask()
-  else if (sprite_index == spr_player_walk_up) select_up_mask()
-  else if (sprite_index == spr_player_walk_down) select_down_mask()
+ /* if (move_x != 0 or move_y!=0) {
+	if (move_y>0) select_down_mask();
+	else if (move_y<0) select_up_mask();
+	else if (move_x>0) select_down_mask();
+	else if (move_x<0) select_down_mask();
+  }*/
+  if (sprite_index == spr_player_walk_right || sprite_index == spr_player_idle_right) select_down_mask();
+  else if (sprite_index == spr_player_walk_left || sprite_index == spr_player_idle_left) select_down_mask();
+  else if (sprite_index == spr_player_walk_up || sprite_index == spr_player_idle_up) select_up_mask();
+  else if (sprite_index == spr_player_walk_down || sprite_index == spr_player_idle_down) select_down_mask();
 }
 
 
