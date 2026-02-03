@@ -105,3 +105,7 @@ if (hp<=0) {
 	layer_set_visible("DeathLayer", true);
 	instance_deactivate_all(true);
 }
+if (win == true){
+	layer_set_visible("WinLayer", true);
+	instance_deactivate_all(true);
+}
